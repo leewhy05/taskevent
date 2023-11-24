@@ -16,8 +16,7 @@ const TASKSchema = new Schema({
     },
     tag:{
           type: String,
-         enum: ['urgent', 'important'],
-         required: [true, 'select a tag']
+         required: [true, 'urgent', 'important']
     },
     date:{
         type:Date,
