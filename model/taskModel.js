@@ -26,5 +26,5 @@ const TASKSchema = new Schema({
     }
 }, {timestamps:true})
 
-const TASKEVENT = mongoose.model('User', TASKSchema)
+const TASKEVENT = mongoose.model('Task', TASKSchema)
 module.exports = TASKEVENT
