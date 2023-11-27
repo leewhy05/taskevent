@@ -9,8 +9,6 @@ const userRouter = require('./router/taskRouter')
 
 
 
-
-
 //middleware
 app.use(cors())
 app.use(express.json())
